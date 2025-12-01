@@ -1,16 +1,17 @@
 package isima.tp.TpCodeReview;
 
+/*
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
+*/
 import java.util.Scanner; 
 
 
-@SpringBootApplication
+//@SpringBootApplication
 public class TpCodeReviewApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TpCodeReviewApplication.class, args);
+		//SpringApplication.run(TpCodeReviewApplication.class, args);
 
 		Scanner myObj = new Scanner(System.in); 
 		AwesomePasswordChecker checker;
@@ -29,7 +30,7 @@ public class TpCodeReviewApplication {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
+
 		myObj.close();
 	}
 
